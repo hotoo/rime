@@ -1,3 +1,2 @@
-# 每頁候選數
 patch:
-  "menu/page_size": 6
+  "menu/page_size": 6   # 每頁候選數
