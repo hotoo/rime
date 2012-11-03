@@ -25,3 +25,4 @@ Rime 的配置文件不同平台的放置在不同的目录，
 * [Rime 定製指南](http://code.google.com/p/rimeime/wiki/CustomizationGuide)
 * [中州韵（小狼毫，鼠须管）输入法设置](http://blog.yesmryang.net/rime-setting/)
 * [Author:佛振(lotem)@github](https://github.com/lotem)
+* [如何从QIM迁移至Squirrel（鼠鬚管）](http://cocoabob.net/?p=919)
