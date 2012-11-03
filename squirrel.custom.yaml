@@ -1,0 +1,15 @@
+patch:
+  #"style/color_scheme": ink   # 选词皮肤
+  #"style/font_point": 18      # 字体大小
+  #style/horizontal: true      # 候選橫排
+  #style/inline_preedit: true  # 內嵌編碼（僅支持TSF）
+
+  # 關閉中文輸入
+  # @see [http://code.google.com/p/rimeime/wiki/CustomizationGuide#在特定程序裏關閉中文輸入]
+  #           Bundle Identifier
+  app_options/com.apple.Xcode:
+    ascii_mode: true
+  app_options/org.vim.MacVim:
+    ascii_mode: true
+  app_options/com.google.Chrome:
+    ascii_mode: true
