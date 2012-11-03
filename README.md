@@ -18,6 +18,10 @@ Rime 的配置文件不同平台的放置在不同的目录，
 例如：Mac OSX 下的原始配置 `squirrel.yaml`，对应的用户配置就是
 `squirrel.custom.yaml` 文件。
 
+修改 `.custom` 配置后，『重新部署』Rime 输入法会将用户的配置增加或更新到
+对应的原始配置中。
+
 ## 参考
 * [Rime 定製指南](http://code.google.com/p/rimeime/wiki/CustomizationGuide)
 * [中州韵（小狼毫，鼠须管）输入法设置](http://blog.yesmryang.net/rime-setting/)
+* [Author:佛振(lotem)@github](https://github.com/lotem)
