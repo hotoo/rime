@@ -13,3 +13,9 @@ patch:
     ascii_mode: true
   app_options/com.google.Chrome:
     ascii_mode: true
+  app_options/org.mozilla.firefox:
+    ascii_mode: true
+  app_options/com.apple.Safari:
+    ascii_mode: true
+  app_options/org.keepassx.keepassx:
+    ascii_mode: true
