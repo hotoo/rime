@@ -3,12 +3,14 @@ patch:
   "punctuator/full_shape/%":
       - "%"
       - "‰"
+      - "‱"
       - "％"
       - "°"
       - "℃"
   "punctuator/half_shape/%":
       - "%"
       - "‰"
+      - "‱"
       - "％"
       - "°"
       - "℃"
