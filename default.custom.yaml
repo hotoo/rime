@@ -14,3 +14,11 @@ patch:
       - "％"
       - "°"
       - "℃"
+  "punctuator/half_shape/y":
+      - "✓"
+      - "✔"
+  "punctuator/half_shape/n":
+      - "✗"
+      - "✘"
+      - "✖"
+      - "✕"
