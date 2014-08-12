@@ -36,6 +36,17 @@ $ cd ~/.rime
 $ make uninstall
 ```
 
+## 同步
+
+installation.yaml
+
+```yaml
+installation_id: "my.iMac"
+sync_dir: '~/Dropbox/RimeSync'
+```
+
+[說明書#同步用戶資料](https://code.google.com/p/rimeime/wiki/UserGuide#同步用戶資料)
+
 ## 参考
 * [Rime 定製指南](http://code.google.com/p/rimeime/wiki/CustomizationGuide)
 * [中州韵（小狼毫，鼠须管）输入法设置](http://blog.yesmryang.net/rime-setting/)
