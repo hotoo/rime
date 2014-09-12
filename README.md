@@ -42,7 +42,7 @@ installation.yaml
 
 ```yaml
 installation_id: "my.iMac"
-sync_dir: '~/Dropbox/RimeSync'
+sync_dir: "/Users/hotoo/Dropbox/RimeSync"
 ```
 
 [說明書#同步用戶資料](https://code.google.com/p/rimeime/wiki/UserGuide#同步用戶資料)
