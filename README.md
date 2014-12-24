@@ -24,15 +24,15 @@ Rime 的配置文件不同平台的放置在不同的目录，
 ## 安裝
 
 ```
-$ git clone git@github.com:hotoo/rime.git ~/.rime
-$ cd ~/.rime
+$ git clone git@github.com:hotoo/rime.git
+$ cd rime
 $ make install
 ```
 
 ## 卸載
 
 ```
-$ cd ~/.rime
+$ cd rime
 $ make uninstall
 ```
 
