@@ -7,7 +7,7 @@ patch:
   # 關閉中文輸入
   # @see [http://code.google.com/p/rimeime/wiki/CustomizationGuide#在特定程序裏關閉中文輸入]
   #
-  # Bundle Identifier c查找方法：
+  # Bundle Identifier 查找方法：
   # 右键『应用.app』-> 显示包内容
   # Contents/Info.plist -> BundleIdentifier
   #           Bundle Identifier
