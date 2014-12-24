@@ -21,5 +21,9 @@ patch:
     ascii_mode: true
   app_options/com.apple.Safari:
     ascii_mode: true
+  app_options/com.operasoftware.Opera:
+    ascii_mode: true
   app_options/org.keepassx.keepassx:
+    ascii_mode: true
+  app_options/com.apple.Spotlight:
     ascii_mode: true
