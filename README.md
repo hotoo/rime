@@ -4,7 +4,7 @@
 [Rime](http://code.google.com/p/rimeime/) 输入法是一款适用于 Mac OSX, Linux,
 Windows 的输入法，Rime 在不同平台下的对应名称如下：
 
-* Mac OSX: 鼠鬚管(Squirrel)
+* Mac OSX: 鼠鬚管([Squirrel](https://github.com/lotem/squirrel))
     配置目录：`~/Library/Rime/`
 * Linux: 中州韻(ibus-rime)
     配置目录：`~/.config/ibus/rime/`
