@@ -1,14 +1,16 @@
 
 # 闲耘的 Rime 配置说明
 
+![Screenshot](./screenshot.png)
+
 [Rime](https://github.com/rime) 输入法是一款适用于 Mac OSX, Linux,
 Windows 的输入法，Rime 在不同平台下的对应名称如下：
 
-* Mac OSX: 鼠鬚管([Squirrel](https://github.com/rime/squirrel))
+* Mac OSX: 鼠鬚管 ([Squirrel](https://github.com/rime/squirrel))
     配置目录：`~/Library/Rime/`
-* Linux: 中州韻(ibus-rime)
+* Linux: 中州韻 (ibus-rime)
     配置目录：`~/.config/ibus/rime/`
-* Windows: 小狼毫(Weasel)
+* Windows: 小狼毫 (Weasel)
     配置目录：`%APPDATA%\Rime`
 
 Rime 的配置文件不同平台的放置在不同的目录，
@@ -50,5 +52,5 @@ sync_dir: "/Users/hotoo/Dropbox/RimeSync"
 * [Rime 定製指南](http://code.google.com/p/rimeime/wiki/CustomizationGuide)
 * [中州韵（小狼毫，鼠须管）输入法设置](http://blog.yesmryang.net/rime-setting/)
 * [說明書#同步用戶資料](https://code.google.com/p/rimeime/wiki/UserGuide#同步用戶資料)
-* [Author:佛振(lotem)@github](https://github.com/lotem)
-* [如何从QIM迁移至Squirrel（鼠鬚管）](http://cocoabob.net/?p=919)
+* [Author: 佛振 (lotem)@github](https://github.com/lotem)
+* [如何从 QIM 迁移至 Squirrel（鼠鬚管）](http://cocoabob.net/?p=919)
