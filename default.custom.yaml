@@ -1,5 +1,5 @@
 patch:
-  "menu/page_size": 6   # 每頁候選數
+  "menu/page_size": 5   # 每頁候選數
   "punctuator/import_preset": symbols
   "punctuator/symbols":
     "/fs": [½, ‰, ¼, ⅓, ⅔, ¾, ⅒ ]
