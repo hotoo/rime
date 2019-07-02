@@ -31,12 +31,32 @@ $ cd rime
 $ make install
 ```
 
-## 卸載
+卸载
 
 ```
 $ cd rime
 $ make uninstall
 ```
+
+## 简体字
+
+鼠须管默认是繁体字模式，要改成简体字拼音输入法模式，可以如下操作。
+
+1. 输入法切到鼠须管。
+2. `<Ctrl-~>`
+3. `〔方案選單〕` 中，选择 `朙月拼音`，回车。
+  ![Image](assets/1562039459-6362.png)
+4. 再回车选择 `朙月拼音`。
+   1. `朙月拼音` 输入模式名称。下面各项前面黑色字体代表当前选中，选择则会修改为箭头后面的配置。
+   2. `西文 → 中文` 中文西文未搞清楚什么意思。
+   3. `半角 → 全角` 阿拉伯数字使用半角模式，例如 `1` 而不是 `1`。
+   4. `汉字 → 漢字` 简体中文。
+   5. `。， → . ,` 中文标点符号使用的字符。
+  ![Image](assets/1562039503-9756.png)
+
+注意：如果输入法方案选择 `朙月拼音・简化字` 则 luna_pinyin.custom.yaml 配置不生效。而且同一个
+Mac 系统中，不同软件可以设置不同的输入法模式，比如 Chrome 的地址栏和 Chrome 中的文本输入框
+的输入法模式可以不同，导致一个模糊音有效，另一个无效。
 
 ## 同步
 
@@ -46,7 +66,6 @@ installation.yaml
 installation_id: "hotoo.rmbp"
 sync_dir: "/Users/hotoo/Dropbox/RimeSync"
 ```
-
 
 ## 参考
 * [Rime 定製指南](http://code.google.com/p/rimeime/wiki/CustomizationGuide)
