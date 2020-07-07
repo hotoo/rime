@@ -68,8 +68,8 @@ sync_dir: "/Users/hotoo/Dropbox/RimeSync"
 ```
 
 ## 参考
-* [Rime 定製指南](http://code.google.com/p/rimeime/wiki/CustomizationGuide)
+* [Rime 定製指南](https://github.com/rime/home/wiki/CustomizationGuide)
 * [中州韵（小狼毫，鼠须管）输入法设置](http://blog.yesmryang.net/rime-setting/)
-* [說明書#同步用戶資料](https://code.google.com/p/rimeime/wiki/UserGuide#同步用戶資料)
+* [說明書#同步用戶資料](https://github.com/rime/home/wiki/UserGuide#同步用戶資料)
 * [Author: 佛振 (lotem)@github](https://github.com/lotem)
-* [如何从 QIM 迁移至 Squirrel（鼠鬚管）](http://cocoabob.net/?p=919)
+* [如何从 QIM 迁移至 Squirrel（鼠鬚管）](http://cocoabob.ddns.net/?p=919)
