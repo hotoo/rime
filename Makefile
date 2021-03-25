@@ -18,9 +18,9 @@ install:
 	@make $(INSTALL_FLAG)
 
 install-unix:
-	@eval "ln -s $(CURDIR)/default.custom.yaml     $(INSTALL_DIR)/default.custom.yaml"
-	@eval "ln -s $(CURDIR)/luna_pinyin.custom.yaml $(INSTALL_DIR)/luna_pinyin.custom.yaml"
-	@eval "ln -s $(CURDIR)/squirrel.custom.yaml    $(INSTALL_DIR)/squirrel.custom.yaml"
+	@eval "ln -sf $(CURDIR)/default.custom.yaml     $(INSTALL_DIR)/default.custom.yaml"
+	@eval "ln -sf $(CURDIR)/luna_pinyin.custom.yaml $(INSTALL_DIR)/luna_pinyin.custom.yaml"
+	@eval "ln -sf $(CURDIR)/squirrel.custom.yaml    $(INSTALL_DIR)/squirrel.custom.yaml"
 
 install-win:
 	@eval "cp $(CURDIR)/default.custom.yaml     $(INSTALL_DIR)\default.custom.yaml"
