@@ -67,6 +67,19 @@ installation_id: "hotoo.rmbp"
 sync_dir: "/Users/hotoo/Dropbox/RimeSync"
 ```
 
+## Emoji
+
+安装操作已经内置到 `make install` 中。
+
+1. 安装东风破 https://github.com/rime/plum
+  ```bash
+  curl -fsSL https://raw.githubusercontent.com/rime/plum/master/rime-install | bash
+  ```
+2. 安装 Emoji 插件 https://github.com/rime/rime-emoji
+  ```bash
+  bash rime-install emoji:customize:schema=luna_pinyin
+  ```
+
 ## 参考
 * [Rime 定製指南](https://github.com/rime/home/wiki/CustomizationGuide)
 * [中州韵（小狼毫，鼠须管）输入法设置](http://blog.yesmryang.net/rime-setting/)
