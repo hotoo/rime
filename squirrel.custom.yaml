@@ -42,6 +42,10 @@ patch:
       ascii_mode: true
     org.vim.MacVim:
       ascii_mode: true
+      vim_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+      vim_mode: true
     com.google.Chrome:
       ascii_mode: true
     org.mozilla.firefox:
