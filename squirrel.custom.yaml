@@ -44,8 +44,8 @@ patch:
       ascii_mode: true
       vim_mode: true
     com.microsoft.VSCode:
-      ascii_mode: true
-      vim_mode: true
+      ascii_mode: true # 启动时切换到 ASCII 模式。
+      vim_mode: true   # 在应用中按 Esc 键切到 ASCII 模式。
     com.google.Chrome:
       ascii_mode: true
     org.mozilla.firefox:
