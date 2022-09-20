@@ -21,8 +21,12 @@ install-unix:
 	@eval "ln -sf $(CURDIR)/default.custom.yaml     $(INSTALL_DIR)/default.custom.yaml"
 	@eval "ln -sf $(CURDIR)/luna_pinyin.custom.yaml $(INSTALL_DIR)/luna_pinyin.custom.yaml"
 	@eval "ln -sf $(CURDIR)/squirrel.custom.yaml    $(INSTALL_DIR)/squirrel.custom.yaml"
+	@eval "ln -sf $(CURDIR)/pinyin_simp.custom.yaml $(INSTALL_DIR)/pinyin_simp.custom.yaml"
+	@eval "ln -sf $(CURDIR)/pinyin_simp.dict.yaml $(INSTALL_DIR)/pinyin_simp.dict.yaml"
+	@eval "ln -sf $(CURDIR)/pinyin_simp.schema.yaml $(INSTALL_DIR)/pinyin_simp.schema.yaml"
 	@curl -fsSL https://raw.githubusercontent.com/rime/plum/master/rime-install | bash
-	@bash rime-install emoji:customize:schema=luna_pinyin
+	@bash rime-install emoji:customize:schema=pinyin_simp
+	@bash rime-install pinyin-simp
 
 install-win:
 	@eval "cp $(CURDIR)/default.custom.yaml     $(INSTALL_DIR)\default.custom.yaml"
