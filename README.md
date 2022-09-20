@@ -46,14 +46,17 @@ $ make uninstall
 1. 输入法切到鼠须管。
 2. `<Ctrl-~>`
 3. `〔方案選單〕` 中，选择 `袖珍简化字拼音`，回车。
-  ![Image](assets/1.png)
+
+    ![Image](assets/1.png)
+
 4. 再回车选择 `袖珍简化字拼音`。
    1. `袖珍简化字拼音` 输入模式名称。下面各项前面黑色字体代表当前选中，选择则会修改为箭头后面的配置。
    2. `西文 → 中文` 中文西文未搞清楚什么意思。
    3. `半角 → 全角` 阿拉伯数字使用半角模式，例如 `1` 而不是 `1`。
    4. `汉字 → 漢字` 简体中文。
    5. `。， → . ,` 中文标点符号使用的字符。
-  ![Image](assets/2.png)
+
+       ![Image](assets/2.png)
 
 鼠须管默认是繁体字模式，且内置了“朙月拼音”和“朙月拼音・简化字”两种简体字输入方案，
 但是这两者都是繁体码表，存在一简对多繁的问题，有些词语无法打出来：
@@ -88,7 +91,7 @@ sync_dir: "/Users/hotoo/Dropbox/RimeSync"
   ```
 2. 安装 Emoji 插件 https://github.com/rime/rime-emoji
   ```bash
-  bash rime-install emoji:customize:schema=luna_pinyin
+  bash rime-install emoji:customize:schema=pinyin_simp
   ```
 
 ## 参考
