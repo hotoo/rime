@@ -1,7 +1,7 @@
-# luna_pinyin.custom.yaml
+# pinyin_simp.custom.yaml
 #
-# 【朙月拼音】模糊音定製模板
-#   佛振配製 :-)
+# 袖珍简化字拼音
+#   闲耘配置 :-)
 #
 # 位置：
 # ~/.config/ibus/rime  (Linux)
@@ -12,16 +12,15 @@
 #
 
 patch:
-
-  engine/processors:
-    # - ascii_composer
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
+  ascii_composer:
+    # good_old_caps_lock: true
+    switch_key:
+      # Shift_L: noop
+      # Shift_R: noop
+      # Control_L: noop
+      # Control_R: noop
+      # Caps_Lock: clear
+      # Eisu_toogle: clear
 
   'speller/algebra':
     - erase/^xx$/                      # 第一行保留
@@ -102,7 +101,18 @@ patch:
     - derive/ao$/oa/                   # hoa => hao
     - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
 
+    # @see https://github.com/rime/rime-pinyin-simp/issues/17
+    # https://github.com/rime/rime-pinyin-simp/commit/b0e84cda02c613ebdedc127a26131b3800f45a8e
+    - erase/^hm$/
+    - erase/^m$/
+    - erase/^n$/
+    - erase/^ng$/
+
   # 分尖團後 v => ü 的改寫條件也要相應地擴充：
   #'translator/preedit_format':
   #  - "xform/([nljqxyzcs])v/$1ü/"
 __patch:
+# Rx: emoji:customize:schema=pinyin_simp {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }
