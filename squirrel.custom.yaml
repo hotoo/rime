@@ -67,3 +67,9 @@ patch:
       ascii_mode: true
     com.runningwithcrayons.Alfred:
       ascii_mode: true
+    md.obsidian:
+      ascii_mode: true
+      vim_mode: true
+    com.qvacua.VimR:
+      ascii_mode: true
+      vim_mode: true
