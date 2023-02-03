@@ -12,6 +12,13 @@
 #
 
 patch:
+  # https://github.com/rime/squirrel/issues/707
+  # https://github.com/rime/librime/issues/608
+  "switches/@before 0":
+    name: ascii_mode
+    reset: 0
+    states: [ '中', ' A' ]
+
   ascii_composer:
     # good_old_caps_lock: true
     switch_key:
