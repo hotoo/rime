@@ -32,7 +32,10 @@ patch:
     google:
       name: 谷歌
       horizontal: false              # true横排，false竖排
-      candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      inline_preedit: false                             # true: 单行显示，false: 双行显示
+      # candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      candidate_format: "\u2005%c\u2005%@\u2005"        # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+      font_face: "PingFangSC-Regular, H-SiuNiu"         # 候选词字体
       font_point: 16                           # 候选文字大小
       label_font_point: 15                     # 候选编号大小
       corner_radius: 6                         # 窗口圆角
