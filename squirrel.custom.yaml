@@ -92,6 +92,9 @@ patch:
     md.obsidian:
       ascii_mode: true
       vim_mode: true
+    dev.zed.Zed:
+      ascii_mode: true
+      vim_mode: true
     com.qvacua.VimR:
       ascii_mode: true
       vim_mode: true
