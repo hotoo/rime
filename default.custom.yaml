@@ -1,4 +1,14 @@
 patch:
+  schema_list:
+    - schema: pinyin_simp
+    - schema: luna_pinyin
+    - schema: luna_pinyin_simp
+    - schema: luna_pinyin_fluency
+    - schema: bopomofo
+    - schema: bopomofo_tw
+    - schema: cangjie5
+    - schema: stroke
+    - schema: terra_pinyin
   "menu/page_size": 5   # 每頁候選數
   "punctuator/import_preset": symbols
   "punctuator/symbols":
